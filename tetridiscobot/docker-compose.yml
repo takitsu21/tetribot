@@ -1,0 +1,7 @@
+version: "3.5"
+
+services:
+    tetrio:
+        image: tetri-discord-bot
+        restart: always
+        build: .
